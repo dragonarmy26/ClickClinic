@@ -107,6 +107,28 @@ button{
     font-family: Montserrat;
     color: #FFFFFF;
 }
+.timetitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 100;
+}
+#timefield{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 45px;
+    width: 33.5%;
+    height: 7.5%;
+    margin-top: -20px;
+    outline: none;
+    text-align: center;
+    
+    font-size: 175%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
 .backButt{
     width: 73.5%;
     height: 7.5%;
@@ -164,6 +186,18 @@ button{
         font-size: 125%;
     }
     #patientnum{
+        height: 10%;
+        font-size: 100%;
+        margin-top: -22.5px;
+    }
+    .timetitle{
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 125%;
+    }
+    #timefield{
         height: 10%;
         font-size: 100%;
         margin-top: -22.5px;
@@ -228,6 +262,16 @@ button{
         font-size: 16px;
     }
     #patientnum{
+        font-size: 125%;
+        height: 47.5px;
+        margin-top: -15px;
+    }
+    .timetitle{
+        margin-top: 10px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    #timefield{
         font-size: 125%;
         height: 47.5px;
         margin-top: -15px;

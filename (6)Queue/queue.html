@@ -12,7 +12,7 @@
             <div class="content">
                 <img class="CCLogo" src="Images/Logo1.png"><br>
                 <p class="confirm">Confirm your booking to get queue number by giving this QR Code to receptionist</p>
-                <a href="QRcode.html" target="_blank"><button class="qrButt" type="button" onclick="queueRand();patientRand()">SHOW QR CODE</button></a><br>
+                <a href="QRcode.html" target="_blank"><button class="qrButt" type="button" onclick="queueRand();patientRand();timeRand()">SHOW QR CODE</button></a><br>
                 <label class="unittitle">Your unit is</label>
                 <input id="unit" type="text" readonly value="Poli Fisioterapi">
                 <div class="queue">
@@ -22,6 +22,10 @@
                 <div class="patient">
                     <p class="patienttitle">Doctor is now checking patient number</p>
                     <input id="patientnum" type="text" readonly><br>
+                </div>
+                <div class="time">
+                    <p class="timetitle">We suggest you come to the clinic at</p>
+                    <input id="timefield" type="text" readonly><br>
                 </div>
                 <a href="../(4)MainMenu/mainmenu.html"><button class="backButt" type="button">BACK TO MAIN MENU</button></a><br>
             </div>
