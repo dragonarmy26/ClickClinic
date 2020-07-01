@@ -1,0 +1,173 @@
+body{
+    background: linear-gradient(150.64deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 78.12%), #56C2DA;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 30%;
+    height: 70%;
+    margin-top: 10%;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+    border-radius: 19% 19%;
+}
+.CCLogo{
+    pointer-events: none;
+    width: 250px;
+    height: 250px;
+    margin-top: -130px;
+    
+    background: #FFFFFF;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 493.5px;
+}
+.CCtitle{
+    width: 75%;
+    margin-top: 20px;
+}
+button{
+    cursor: pointer;
+}
+.addresstitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 200px;
+    font-size: 200%;
+    font-weight: 100;
+}
+.address{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 125%;
+    margin-top: 0;
+}
+.map{
+    margin-top: -20px;
+}
+.contacttitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 200px;
+    font-size: 200%;
+    font-weight: 100;
+}
+.phone{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 200px;
+    font-size: 125%;
+    font-weight: 100;
+}
+.email{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 200px;
+    font-size: 125%;
+    font-weight: 100;
+}
+.backButt{
+    width: 73.5%;
+    height: 7.5%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    
+    font-size: 150%;
+    font-family: Montserrat;
+    color: #56C2DA;
+    user-select: none;
+}
+@media only screen and (max-width: 1366px){
+    .content{
+        height: 65%;
+        margin-top: 6%;
+    }
+    .CCLogo{
+        width: 125px;
+        height: 125px;
+        margin-top: -65px;
+    }
+    .addresstitle{
+        margin-top: 35px;
+        margin-left: 22.5px;
+        font-size: 125%;
+    }
+    .address{
+        font-size: 100%;
+    }
+    .map{
+        width: 350px;
+        height: 250px;
+        margin-top: -15px;
+    }
+    .contacttitle{
+        margin-top: 35px;
+        margin-left: 22.5px;
+        font-size: 125%;
+    }
+    .phone{
+        margin-top: 35px;
+        font-size: 100%;
+    }
+    .email{
+        margin-top: 35px;
+        font-size: 100%;
+    }
+    .backButt{
+        height: 10%;
+        font-size: 125%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .CCLogo{
+        width: 100px;
+        height: 100px;
+        margin: -40px;
+    }
+    .content{
+        width: 90%;
+        height: 70%;
+        margin-top: 50px;
+        
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+        border-radius: 60px;
+    }
+    .CCtitle{
+        margin-top: 55px;
+    }
+    .addresstitle{
+        margin-top: 35px;
+        margin-left: 0;
+        font-size: 26px;
+    }
+    .address{
+        font-size: 100%;
+        margin-left: 27.5px;
+        margin-right: 27.5px;
+        margin-top: 10px;
+    }
+    .map{
+        width: 250px;
+        height: 200px;
+    }
+    .contacttitle{
+        margin-top: 35px;
+        margin-left: 0;
+        font-size: 26px;
+    }
+    .phone{
+        font-size: 100%;
+        margin-top: 10px;
+    }
+    .email{
+        font-size: 100%;
+        margin-top: 10px;
+    }
+    .backButt{
+        width: 277.5px;
+        height: 47.5px;
+        font-size: 125%;
+        margin-top: 5px
+    }
+}

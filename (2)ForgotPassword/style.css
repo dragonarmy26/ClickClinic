@@ -1,0 +1,202 @@
+body{
+    background: linear-gradient(150.64deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 78.12%), #56C2DA;
+    background-repeat: no-repeat;
+}
+.content{
+    width: 30%;
+    height: 70%;
+    margin-top: 15%;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+    border-radius: 19% 19%;
+}
+.CCLogo{
+    pointer-events: none;
+    width: 250px;
+    height: 250px;
+    margin-top: -130px;
+    
+    background: #FFFFFF;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 493.5px;
+}
+button{
+    cursor: pointer;
+}
+.title{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
+    margin-left: 4.75%;
+    font-size: 200%;
+    font-weight: 100;
+}
+.desc{
+    text-align: left;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    margin-left: 92.5px;
+    margin-top: 40px;
+    margin-right: 92.5px;
+}
+.email{
+    margin-top: -5px;
+}
+.emailicon{
+    pointer-events: none;
+    position: absolute;
+    width: 1.6%;
+    padding-left: 25px;
+    padding-top: 13.5px;
+}
+#emailfield{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 45px;
+    width: 73.5%;
+    height: 7.5%;
+    padding-left: 11%;
+    padding-right: 3%;
+    outline: none;
+    
+    font-size: 125%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+.confirmButt{
+    width: 73.5%;
+    height: 7.5%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: none;
+    margin-top: 60px;
+    outline: none;
+    
+    font-size: 150%;
+    font-family: Montserrat;
+    color: #56C2DA;
+    user-select: none;
+}
+::placeholder{
+    color: #FFFFFF;
+}
+.logpos{
+    margin-top: -2.5px;
+    margin-left: 0px;
+}
+.logintitle{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    letter-spacing: 1;
+    font-weight: normal;
+    user-select: none;
+    font-size: 90%;
+}
+.login{
+    font-weight: bold;
+}
+.login:hover{
+    color: grey;
+    cursor: pointer;
+}
+.loginlink{
+    color: #FFFFFF;
+}
+.loginlink:link{
+    text-decoration: none;
+}
+.loginlink:visited{
+    text-decoration: none;
+}
+.loginlink:hover{
+    text-decoration: none;
+}
+.loginlink:active{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1366px){
+    .content{
+        height: 65%;
+    }
+    .CCLogo{
+        width: 175px;
+        height: 175px;
+        margin-top: -90px;
+    }
+    .desc{
+        margin-left: 66px;
+        margin-top: 40px;
+        margin-right: 55px;
+    }
+    .emailicon{
+        margin-left: -0.5%;
+        margin-top: -0.1%;
+    }
+    #emailfield{
+        height: 10%;
+        font-size: 100%;
+    }
+    .confirmbutt{
+        margin-top: 40px;
+        height: 10%;
+        font-size: 125%;
+    }
+    .logintitle{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .CCLogo{
+        width: 125px;
+        height: 125px;
+        margin: -60px;
+    }
+    .content{
+        width: 90%;
+        height: 70%;
+        margin-top: 150px;
+        
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+        border-radius: 60px;
+    }
+    .title{
+        margin-top: 75px;
+        margin-left: 40px;
+        font-size: 32px;
+    }
+    .desc{
+        margin-top: 115px;
+        margin-left: 41px;
+        margin-right: 41px;
+    }
+    .emailicon{
+        width: 25px;
+        padding-left: 25px;
+        padding-top: 14px;
+    }
+    .email{
+        margin-top: 10px;
+    }
+    #emailfield{
+        padding-left: 60px;
+        padding-right: 20px;
+        font-size: 100%;
+        width: 277.5px;
+        height: 47.5px;
+    }
+    .confirmButt{
+        width: 277.5px;
+        height: 47.5px;
+        background: #FFFFFF;
+        border-radius: 90px;
+        border: none;
+        margin-top: 20px;
+        
+        font-size: 150%;
+    }
+    .logintitle{
+        font-size: normal;
+    }
+}

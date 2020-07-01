@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Click Clinic</title>
+        <link rel="icon" href="Images/icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <center>
+            <form class="content" action="../(4)MainMenu/mainmenu.html" onsubmit="return validlogin()">
+                <img class="CCLogo" src="Images/Logo1.png"><br>
+                <p class="title">Login</p>
+                <div class="email">
+                    <img class="emailicon" src="Images/email.png">
+                    <input id="emailfield" type="email" placeholder="Email"><br>
+                </div>
+                <div class="pass">
+                    <img class="passicon" src="Images/password.png">
+                    <input id="passfield"type="password" placeholder="Password"><br>
+                </div>
+                <div class="rememberforgot">
+                    <input class="rememberbox" type="checkbox">
+                    <label class="remembertitle">Remember Me!</label>
+                    <div class="forgotpos">
+                        <a class="forgotlink" href="../(2)ForgotPassword/forgot.html">
+                            <label class="forgot">Forgot Password</label>
+                        </a>
+                    </div>
+                </div>
+                <button class="loginButt" type="submit">LOGIN</button><br>
+                <div class="createpos">
+                    <h5 class="createtitle">Don’t have one? <a class="createlink" href="../(3)CreateAccount/create.html"><span class="create">CREATE NOW</span></a></h5>
+                </div>
+            </form>
+        </center>
+    </body>
+</html>
