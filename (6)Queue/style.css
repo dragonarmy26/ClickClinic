@@ -245,10 +245,11 @@ button{
         font-size: 18px;
     }
     #unit{
-        font-size: 20px
+        margin-top: 10px;
+        font-size: 20px;
     }
     .queuetitle{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 0px;
         font-size: 16px;
     }
