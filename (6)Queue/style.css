@@ -257,7 +257,7 @@ button{
         padding-left: 0;
     }
     .patienttitle{
-        margin-top: 10px;
+        margin-top: 7.5px;
         margin-left: 25px;
         font-size: 16px;
     }
@@ -267,7 +267,7 @@ button{
         margin-top: -15px;
     }
     .timetitle{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 25px;
         font-size: 16px;
     }
@@ -280,5 +280,6 @@ button{
         width: 277.5px;
         height: 47.5px;
         font-size: 125%;
+        margin-top: 5px
     }
 }
