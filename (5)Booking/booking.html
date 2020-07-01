@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Click Clinic</title>
+        <link rel="icon" href="Images/icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript">
+            function validbook(){
+                var patientName = document.getElementById("namefield").value;
+                var unit = document.getElementById("unitfield").value;
+                var date = document.getElementById("datefield").value;
+                if(patientName==""){
+                    alert("Patient Name field cannot be empty!")
+                    return false;
+                }
+                else if(unit=="none"){
+                    alert("Unit field cannot be empty!")
+                    return false;
+                }
+                else if(date==""){
+                    alert("Date Booking field cannot be empty!")
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <form class="content" action="../(4)MainMenu/mainmenu.html" onsubmit="return validbook()">
+                <img class="CCLogo" src="Images/Logo1.png"><br>
+                <div class="name">
+                    <img class="nameicon"src="Images/patient.png">
+                    <input id="namefield" type="text" placeholder="Patient Full Name"><br>
+                </div>
+                <div class="unit">
+                    <select id="unitfield">
+                        <option selected disabled value="none">Choose Unit</option>
+                        <option value="Poli Umum">Poli Umum</option>
+                        <option value="Poli Gigi">Poli Gigi</option>
+                        <option value="Poli Kebidanan">Poli Kebidanan</option>
+                        <option value="Poli Fisioterapi">Poli Fisioterapi</option>
+                        <option value="Laboratorium">Laboratorium</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <h4 class="datetitle">For when?</h4>
+                    <input id="datefield"type="date"><br>
+                </div>
+                <button class="createButt" type="submit">CONFRIM</button><br>
+            </form>
+        </center>
+    </body>
+</html>
