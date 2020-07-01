@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Click Clinic</title>
+        <link rel="icon" href="icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <form class="content" action="../(1)Login/login.html" onsubmit="return validate()">
+                <img class="CCLogo" src="Images/Logo1.png"><br>
+                <p class="title">Create Account</p>
+                <div class="email">
+                    <img class="emailicon"src="Images/email.png">
+                    <input id="emailfield"type="email" placeholder="Email"><br>
+                </div>
+                <div class="pass">
+                    <img class="passicon"src="Images/password.png">
+                    <input id="passfield"type="password" placeholder="Password"><br>
+                </div>
+                <div class="confpass">
+                    <img class="confpassicon"src="Images/password.png">
+                    <input id="confpassfield"type="password" placeholder="Confirm Password"><br>
+                </div>
+                <div class="name">
+                    <img class="nameicon"src="Images/user.png">
+                    <input id="namefield" type="text" placeholder="Full Name"><br>
+                </div>
+                <div class="phone">
+                    <img class="phoneicon"src="Images/phone-ringing.png">
+                    <input id="phonefield"type="tel" placeholder="Phone Number" pattern="[0-9]{4}[0-9]{4}[0-9]{2-4}"><br>
+                    <h4 class="phonedesc">Format: 08xxxxxxxxxx (10-14 digits)</h4>
+                </div>
+                <div class="date">
+                    <h4 class="datetitle">Date of Birth</h4>
+                    <img class="dateicon" src="Images/calendar.png">
+                    <input id="datefield"type="date"><br>
+                </div>
+                <button class="createButt" type="submit">CREATE ACCOUNT</button><br>
+                <div class="loginpos">
+                    <h5 class="logintitle">Already have one? <a class="loginlink" href="../(1)Login/login.html"><span class="login">LOGIN NOW</span></a></h5>
+                </div>
+            </form>
+        </center>
+    </body>
+</html>

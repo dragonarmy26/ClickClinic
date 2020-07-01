@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Click Clinic</title>
+        <link rel="icon" href="icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <center>
+            <div class="content">
+                <img class="CCLogo" src="Images/Logo1.png"><br>
+                <p class="confirm">Confirm your booking to get queue number by giving this QR Code to receptionist</p>
+                <a href="QRcode.html" target="_blank"><button class="qrButt" type="button" onclick="queueRand();patientRand()">SHOW QR CODE</button></a><br>
+                <label class="unittitle">Your unit is</label>
+                <input id="unit" type="text" readonly value="Poli Fisioterapi">
+                <div class="queue">
+                    <p class="queuetitle">Your queue number</p>
+                    <input id="queuenum" type="number" readonly>
+                </div>
+                <div class="patient">
+                    <p class="patienttitle">Doctor is now checking patient number</p>
+                    <input id="patientnum" type="text" readonly><br>
+                </div>
+                <a href="../(4)MainMenu/mainmenu.html"><button class="backButt" type="button">BACK TO MAIN MENU</button></a><br>
+            </div>
+        </center>
+    </body>
+</html>

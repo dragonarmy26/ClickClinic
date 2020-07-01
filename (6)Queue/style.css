@@ -1,0 +1,240 @@
+body{
+    background: linear-gradient(150.64deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 78.12%), #56C2DA;
+    background-repeat: no-repeat;
+}
+.content{
+    /*position: absolute;*/
+    width: 30%;
+    height: 70%;
+    margin-top: 10%;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+    border-radius: 19% 19%;
+}
+.CCLogo{
+    pointer-events: none;
+    width: 250px;
+    height: 250px;
+    margin-top: -130px;
+    
+    background: #FFFFFF;
+    filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 493.5px;
+}
+button{
+    cursor: pointer;
+}
+.confirm{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 125%;
+    text-align: left;
+    margin-left: 8.75%;
+    margin-right: 8.75%;
+}
+.qrButt{
+    width: 73.5%;
+    height: 7.5%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: none;
+    margin-top: -10px;
+    outline: none;
+    
+    font-size: 150%;
+    font-family: Montserrat;
+    color: #56C2DA;
+    user-select: none;
+}
+.unittitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 200%;
+    font-weight: 100;
+}
+#unit{
+    font-size: 225%;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    width: 45%;
+    margin-top: 10px;
+    outline: none;
+}
+.queuetitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 100;
+}
+#queuenum{
+    width: 33.5%;
+    height: 10%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: none;
+    margin-top: -25px;
+    padding-left: 2.5%;;
+    outline: none;
+    text-align: center;
+    
+    font-size: 350%;
+    font-family: Montserrat;
+    color: #56C2DA;
+    user-select: none;
+}
+.patienttitle{
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 100;
+}
+#patientnum{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 45px;
+    width: 23.5%;
+    height: 7.5%;
+    margin-top: -20px;
+    outline: none;
+    text-align: center;
+    
+    font-size: 175%;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+.backButt{
+    width: 73.5%;
+    height: 7.5%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    
+    font-size: 150%;
+    font-family: Montserrat;
+    color: #56C2DA;
+    user-select: none;
+}
+@media only screen and (max-width: 1366px){
+    .content{
+        height: 65%;
+        margin-top: 6%;
+    }
+    .CCLogo{
+        width: 125px;
+        height: 125px;
+        margin-top: -65px;
+    }
+    .confirm{
+        font-size: 100%;
+    }
+    .qrButt{
+        margin-top: -5px;;
+        height: 10%;
+        font-size: 125%;
+    }
+    .unittitle{
+        margin-top: 35px;
+        margin-left: 22.5px;
+        font-size: 125%;
+    }
+    #unit{
+        font-size: 150%;
+    }
+    .queuetitle{
+        margin-top: 15px;
+        margin-left: 0px;
+        font-size: 125%;
+    }
+    #queuenum{
+        font-size: 200%;
+        margin-top: -20px;
+    }
+    .patienttitle{
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 125%;
+    }
+    #patientnum{
+        height: 10%;
+        font-size: 100%;
+        margin-top: -22.5px;
+    }
+    .backButt{
+        height: 10%;
+        font-size: 125%;
+    }
+}
+@media only screen and (max-width: 1080px){
+    .CCLogo{
+        width: 100px;
+        height: 100px;
+        margin: -40px;
+    }
+    .content{
+        width: 90%;
+        height: 70%;
+        margin-top: 50px;
+        
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+        border-radius: 60px;
+    }
+    .title{
+        margin-top: 35px;
+        margin-left: 40px;
+        font-size: 28px;
+    }
+    .confirm{
+        font-size: 100%;
+        margin-left: 27.5px;
+        margin-right: 27.5px;
+        margin-top: 60px;
+    }
+    .qrButt{
+        width: 277.5px;
+        height: 47.5px;
+        margin-top: -10px;
+        
+        font-size: 150%;
+    }
+    .unittitle{
+        margin-top: 35px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+    #unit{
+        font-size: 20px
+    }
+    .queuetitle{
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    #queuenum{
+        margin-top: -15px;
+        padding-left: 0;
+    }
+    .patienttitle{
+        margin-top: 10px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    #patientnum{
+        font-size: 125%;
+        height: 47.5px;
+        margin-top: -15px;
+    }
+    .backButt{
+        width: 277.5px;
+        height: 47.5px;
+        font-size: 125%;
+    }
+}

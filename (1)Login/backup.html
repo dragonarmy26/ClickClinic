@@ -1,0 +1,354 @@
+<html>
+    <head>
+        <title>Click Clinic</title>
+        <link rel="icon" href="icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                /*position: relative;*/
+                /*width: 1080px;
+                height: 1920px;*/
+                
+                background: linear-gradient(150.64deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 78.12%), #56C2DA;
+                background-repeat: no-repeat;
+            }
+            .content{
+                /*position: absolute;*/
+                width: 30%;
+                height: 70%;
+                margin-top: 15%;
+                
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+                border-radius: 19% 19%;
+            }
+            .CCLogo{
+                pointer-events: none;
+                width: 250px;
+                height: 250px;
+                margin-top: -130px;
+                
+                background: #FFFFFF;
+                filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.25));
+                border-radius: 493.5px;
+            }
+            .title{
+                position: absolute;
+                color: #FFFFFF;
+                font-family: 'PT Sans', sans-serif;
+                margin-top: 0;
+                margin-left: 4.75%;
+                font-size: 200%;
+                font-weight: 100;
+            }
+            .email{
+                    margin-top: 50px;
+                }
+            .emailicon{
+                pointer-events: none;
+                position: absolute;
+                width: 1.6%;
+                padding-left: 25px;
+                padding-top: 13.5px;
+            }
+            .emailfield{
+                /*margin-top: -25px;*/
+                background-color: transparent;
+                border: 2px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 45px;
+                width: 73.5%;
+                height: 7.5%;
+                padding-left: 11%;
+                padding-right: 3%;
+                outline: none;
+                
+                font-size: 125%;
+                font-family: Montserrat;
+                color: #FFFFFF;
+            }
+            .passicon{
+                pointer-events: none;
+                position: absolute;
+                width: 1.6%;
+                padding-left: 25px;
+                padding-top: 40px;
+            }
+            .passfield{
+                background-color: transparent;
+                border: 2px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 45px;
+                margin-top: 30px;
+                width: 73.5%;
+                height: 7.5%;
+                padding-left: 11%;
+                padding-right: 3%;
+                outline: none;
+                
+                font-size: 125%;
+                font-family: Montserrat;
+                color: #FFFFFF;
+            }
+            .loginButt{
+                width: 73.5%;
+                height: 7.5%;
+                background: #FFFFFF;
+                border-radius: 90px;
+                border: none;
+                margin-top: 60px;
+                outline: none;
+                
+                font-size: 150%;
+                font-family: Montserrat;
+                color: #56C2DA;
+                user-select: none;
+            }
+            ::placeholder{
+                color: #FFFFFF;
+            }
+            .rememberforgot{
+                margin-top: 15px;
+            }
+            .rememberbox{
+                position: absolute;
+                margin-left: 0.25%;
+                margin-top: 3px;
+            }
+            .remembertitle{
+                user-select: none;
+                font-family: Montserrat;
+                color: #FFFFFF;
+                font-size: 90%;
+                padding-left: 4%;
+            }
+            .forgotpos{
+                font-family: Montserrat;
+                color: #FFFFFF;
+                user-select: none;
+                padding-left: 22%;
+                font-size: 90%;
+                display: inline-block;
+            }
+            .forgot:hover{
+                color: grey;
+                cursor: pointer;
+            }
+            .forgotlink{
+                color: #FFFFFF;
+            }
+            .forgotlink:link{
+                text-decoration: none;
+            }
+            .forgotlink:visited{
+                text-decoration: none;
+            }
+            .forgotlink:hover{
+                text-decoration: none;
+            }
+            .forgotlink:active{
+                text-decoration: none;
+            }
+            .createpos{
+                margin-top: -2.5px;
+                margin-left: 0px;
+            }
+            .createtitle{
+                color: #FFFFFF;
+                font-family: Montserrat;
+                letter-spacing: 1;
+                font-weight: normal;
+                user-select: none;
+                font-size: 90%;
+            }
+            }
+            .create{
+                font-weight: bold;
+            }
+            .create:hover{
+                color: grey;
+                cursor: pointer;
+            }
+            .createlink{
+                color: #FFFFFF;
+            }
+            .createlink:link{
+                text-decoration: none;
+            }
+            .createlink:visited{
+                text-decoration: none;
+            }
+            .createlink:hover{
+                text-decoration: none;
+            }
+            .createlink:active{
+                text-decoration: none;
+            }
+            @media only screen and (max-width: 1366px){
+                .content{
+                    height: 65%;
+                }
+                .CCLogo{
+                    width: 175px;
+                    height: 175px;
+                    margin-top: -90px;
+                }
+                .emailicon{
+                    margin-left: -0.5%;
+                    margin-top: -0.1%;
+                }
+                .emailfield{
+                    height: 10%;
+                    font-size: 100%;
+                }
+                .passicon{
+                    margin-left: -0.5%;
+                }
+                .passfield{
+                    height: 10%;
+                    font-size: 100%;
+                }
+                .remembertitle{
+                    padding-left: -28%;
+                    font-size: 80%;
+                }
+                .forgotpos{
+                    padding-left: 8%;
+                    font-size: 80%;
+                }
+                .loginbutt{
+                    margin-top: 40px;
+                    height: 10%;
+                    font-size: 125%;
+                }
+                .createtitle{
+                    font-size: 80%;
+                }
+            }
+            @media only screen and (max-width: 1080px){
+                .CCLogo{
+                    width: 125px;
+                    height: 125px;
+                    margin: -60px;
+                }
+                .content{
+                    width: 90%;
+                    height: 70%;
+                    margin-top: 150px;
+                    
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 84.38%);
+                    border-radius: 60px;
+                }
+                .title{
+                    /*position: absolute;*/
+                    margin-top: 75px;
+                    margin-left: 40px;
+                    font-size: 32px;
+                }
+                .emailicon{
+                    /*position: absolute;*/
+                    width: 25px;
+                    padding-left: 25px;
+                    padding-top: 14px;
+                }
+                .email{
+                    margin-top: 120px;
+                }
+                .emailfield{
+                    padding-left: 60px;
+                    padding-right: 20px;
+                    font-size: 100%;
+                    width: 277.5px;
+                    height: 47.5px;
+                }
+                .passicon{
+                    position: absolute;
+                    width: 25px;
+                    padding-left: 25px;
+                    padding-top: 40px;
+                }
+                .passfield{
+                    padding-left: 60px;
+                    padding-right: 20px;
+                    font-size: 100%;
+                    width: 277.5px;
+                    height: 47.5px;
+                }
+                .loginButt{
+                    width: 277.5px;
+                    height: 47.5px;
+                    background: #FFFFFF;
+                    border-radius: 90px;
+                    border: none;
+                    margin-top: 20px;
+                    
+                    font-size: 150%;
+                }
+                .rememberforgot{
+                    margin-top: 10px;
+                }
+                .rememberbox{
+                    position: absolute;
+                    margin-left: -5px;;
+                    margin-top: 2px;
+                }
+                .remembertitle{
+                    font-family: Montserrat;
+                    font-size: 80%;
+                }
+                .forgotpos{
+                    padding-left: 10%;
+                    font-family: Montserrat;
+                    font-size: 80%;
+                }
+                .createtitle{
+                    font-size: normal;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+            function login(){
+                var email = document.getElementsByClassName("emailfield").value;
+                var pass = document.getElementsByClassName("passfield").value;
+                if(email=="theodorus@yahu.com" && pass=="123")
+                {
+                    return true;
+                }
+                else
+                    {
+                        alert();
+                        return false;
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <form class="content" onsubmit="return login()" action="../(4)MainMenu/mainmenu.html">
+                <img class="CCLogo" src="Images/Logo1.png"><br>
+                <p class="title">Login</p>
+                <div class="email">
+                    <img class="emailicon" src="Images/email.png">
+                    <input class="emailfield"type="email" placeholder="Email"><br>
+                </div>
+                <div class="pass">
+                    <img class="passicon" src="Images/password.png">
+                    <input class="passfield"type="password" placeholder="Password"><br>
+                </div>
+                <div class="rememberforgot">
+                    <input class="rememberbox" type="checkbox">
+                    <label class="remembertitle">Remember Me!</label>
+                    <div class="forgotpos">
+                        <a class="forgotlink" href="../(2)ForgotPassword/forgot.html">
+                            <label class="forgot">Forgot Password</label>
+                        </a>
+                    </div>
+                </div>
+                <button class="loginButt" type="submit">LOGIN</button><br>
+                <div class="createpos">
+                    <h5 class="createtitle">Don’t have one? <a class="createlink" href="../(3)CreateAccount/create.html"><span class="create">CREATE NOW</span></a></h5>
+                </div>
+            </form>
+        </center>
+    </body>
+</html>
