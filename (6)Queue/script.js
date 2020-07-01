@@ -11,11 +11,11 @@ function patientRand(){
 function timeRand(){
     var h = Math.random()*(22 - 9)+9;
     var m = Math.random()*(59 - 0)+0;
-    if (m < 10){
-        m = "0" + m
-    }
     var hour = Math.round(h);
     var minute = Math.round(m);
+    if (minute < 10){
+        minute = "0" + minute
+    }
     var time = hour + " : " + minute;
     document.getElementById("timefield").value=time;
 }
