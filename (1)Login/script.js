@@ -1,7 +1,6 @@
 function validlogin(){
     var email = document.getElementById("emailfield").value;
     var pass = document.getElementById("passfield").value;
-    alert("Email: admin@mail.com\nPassword: admin");
     if(email=="admin@mail.com" && pass=="admin"){
         return true;
     }
